@@ -132,7 +132,7 @@ int main(){
 
 
 
-I
+// I
    int a, b, c;
    scanf("%d %d %d", &a, &b, &c);
    int minprice = 0;
@@ -147,6 +147,17 @@ I
    }
    printf("%d", minprice);
 
+// J
+    int x;
+   scanf("%d", &x);
+   
+   if(x < 1200){
+       printf("ABC");
+   } else {
+       printf("ARC");
+   }
+
+    return 0;
 
 
     return 0;
